@@ -24,14 +24,18 @@ button {
     flex-direction: column;
 }
 .header {
+    margin-top: 2.5%;
     width: 100%;
     height: 35%;
     display: flex;
 }
 .main {
+    display: flex;
     width: 100%;
     height: 60%;
     display: flex;
+    margin-top: 5%;
+    justify-content: center;
 }
 .footer {
     width: 100%;
@@ -88,3 +92,44 @@ button {
     width: 20px;
 }
 /* future component end*/
+/* future header component start */
+.header_upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #000;
+}
+.header_slider {
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+}
+.slider_info {
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    margin-left: 1%;
+}
+.info_upper {
+    width: 100%;
+    height: 15%;
+    background-color: #008BF0;
+    transition: 0.3s;
+}
+/* future header component end */
+/* future main conponent start */
+.movies {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.movie {
+    margin-left: 1%;
+    flex-basis: 300px;
+    height: 40%;
+    background-color: #fff;
+}
+/* future main conponent end */
